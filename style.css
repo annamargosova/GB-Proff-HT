@@ -13,7 +13,7 @@
     height: 75px;
     background-color: #222222;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
 }
 
@@ -33,7 +33,7 @@
 
 .navbar_icon {
     width: 44px;
-    height: 38px;
+    height: 44px;
     margin: 0 17px;
 }
 
@@ -47,7 +47,7 @@
 
 .brand {
     width: 100%;
-    height: 764px;
+    max-height: 764px;
     background-color: #F1E4E6;
     margin-top: 75px;
     display: flex;
@@ -66,7 +66,7 @@
     width: 50%;
 }
 
-.brand_text {
+.brand_info {
     width: 50%;
     font-weight: 700;
     font-size: 32px;
@@ -76,11 +76,11 @@
     flex-direction: column;
     justify-content: center;
     border-left: 12px solid #F16D7F;
-    height: 93px;
+    max-height: 93px;
     margin-top: 290px;
 }
 
-.brand_heading {
+.brand_title {
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
@@ -88,14 +88,13 @@
     padding-left: 16px;
 }
 
-.brand_info {
+.brand_text {
     padding-left: 16px;
 }
 
 .section_wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 100%;
     margin: auto;
@@ -108,7 +107,11 @@
 
 /*deals cards*/
 
-.deals123 {
+.section_deals {
+    width: 100%;
+}
+
+.deals_row {
     margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
@@ -128,6 +131,7 @@
 .deal_w {
     width: 360px;
     height: 260px;
+    margin-right: 30px;
     background-image: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/card1.svg);
     background-position: center;
     text-decoration: none;
@@ -141,6 +145,7 @@
 .deal_m {
     width: 360px;
     height: 260px;
+    margin-right: 30px;
     background-image: linear-gradient( rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/card2.svg);
     background-position: center;
     text-decoration: none;
@@ -163,7 +168,7 @@
 }
 
 .deal_acc {
-    width: 1140px;
+    max-width: 1140px;
     height: 180px;
     margin: auto;
     margin-top: 30px;
@@ -218,7 +223,7 @@
 .feat_items_box {
     margin-left: auto;
     margin-right: auto;
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -272,9 +277,19 @@
     border: 1px solid #ff6a6a;
 }
 
-.services {
-    background: #222224;
-    height: 341px;
+.section_services {
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section_services .section_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 104px 0;
+    gap: 30px;
 }
 
 .services_list {
@@ -286,7 +301,7 @@
 }
 
 .services_items {
-    width: 360px;
+    max-width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -316,7 +331,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-image: url(img/subscribe.svg);
-    background-size: 100%;
+    background-size: cover;
 }
 
 .subscribe_wrapper {
@@ -324,7 +339,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -429,6 +444,3 @@
     background-color: #F16D7F;
     color: #FFFFFF;
 }
-
-
-/*Catalogue*/

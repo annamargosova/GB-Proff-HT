@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="overlay.scss">
+    <link rel="stylesheet" href="mediaquiries.css">
 </head>
 
 <body>
@@ -22,8 +23,8 @@
             </div>
             <div class="navbar_icons">
                 <div class="navbar_icon burger"><img src="img/navbaricon3.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon4.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon51.svg" alt="logo"></div>
+                <div class="navbar_icon hide_mobile"><img src="img/navbaricon4.svg" alt="logo"></div>
+                <div class="navbar_icon hide_mobile"><img src="img/navbaricon51.svg" alt="logo"></div>
             </div>
         </div>
     </header>
@@ -32,39 +33,44 @@
         <div class="menu">
             <button class="close">Close</button>
         </div>
-
     </section>
+    <script src="script.js"></script>
 
     <section class="brand">
         <div class="brand_wrapper">
             <div class="brand_photo">
                 <img src="img/pic1.svg" alt="photo">
             </div>
-            <div class="brand_text">
-                <div class="brand_heading">THE BRAND</div>
-                <div class="brand_info"> OF LUXERIOUS <span style="color:#F16D7F"> FASHION </div>
+            <div class="brand_info">
+                <div class="brand_title">THE BRAND</div>
+                <div class="brand_text"> OF LUXERIOUS <span style="color:#F16D7F"> FASHION </div>
             </div>
         </div>
     </section>
-    <section class=" wrapper ">
-        <div class="deals123 ">
+    <section class="section section_deals">
+        <div class="section_wrapper"> 
+             <div class="deals_row ">
             <a href="catalogue.html " class="deal_w ">
                 <div class="deal_text "> 30% OFF </div>
                 <div class="deal_title "> FOR WOMEN </div>
             </a>
-            <a href="catalogue.html " class="deal_m ">
+             <a href="catalogue.html " class="deal_m">
                 <div class="deal_text "> HOT DEAL</div>
                 <div class="deal_title "> FOR MEN </div>
             </a>
-            <a href="catalogue.html " class="deal_k ">
+                  
+               <a href="catalogue.html " class="deal_k ">
                 <div class="deal_text "> NEW ARRIVALS </div>
                 <div class="deal_title "> FOR KIDS </div>
             </a>
-        </div>
-        <a href="catalogue.html " class="deal_acc ">
+             </div>
+            <div class="deals_item_big">
+             <a href="catalogue.html " class="deal_acc ">
             <div class="deal_text "> LUXIRIOUS&TRENDY </div>
             <div class="deal_title "> ACCESORIES </div>
         </a>
+        </div>
+        </div>    
     </section>
     <section class="featured_items ">
         <h2 class="feat_heading "> Featured items </h2>
@@ -111,8 +117,9 @@
             <a class="feat_items_link " href="# "> Browse All Products</a>
         </div>
     </section>
-    <section class="services ">
-        <div class="services_list ">
+    <section class="section section_services">
+        <div class="section_wrapper">
+             <div class="services_list ">
             <div class="services_items ">
                 <img class="services_item " src="img/service1.svg " alt="delivery ">
                 <h3 class="services_heading "> Free Delivery</h3>
@@ -129,7 +136,8 @@
                 <p class="services_text "> Worldwide delivery on all. Authoritatively morph next-generation innovation with extentive models. </p>
             </div>
         </div>
-    </section>
+        </div>
+        </section>
 
     <section class="subscribe ">
         <div class="subscribe_wrapper ">

@@ -110,6 +110,7 @@
     flex-direction: row;
     gap: 30px;
     justify-content: flex-start;
+    margin-top: 39px;
 }
 
 .filter_column {
@@ -193,4 +194,45 @@
     font-size: 14px;
     line-height: 17px;
     color: #6F6E6E;
+}
+
+.paginator_wrapper {
+    margin: auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.paginator {
+    width: 283px;
+    height: 43px;
+    margin-top: 48px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    align-items: center;
+}
+
+.paginator:active {
+    color: #EF5B70;
+}
+
+.page:hoover {
+    color: #EF5B70;
+}
+
+.page {
+    color: grey;
+    text-decoration: none;
+}
+
+.page_arrow {
+    color: black;
 }

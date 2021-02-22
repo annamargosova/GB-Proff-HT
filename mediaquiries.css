@@ -1,0 +1,66 @@
+@media screen and (max-width:768px) {
+    .section_services .section_wrapper .services_list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .overlay .menu {
+        width: 100%;
+    }
+    .hide_mobile {
+        display: none;
+    }
+    .feat_item_box {
+        flex-direction: column;
+    }
+    .deals_row {
+        flex-direction: column;
+    }
+    .deal_w {
+        margin-bottom: 30px;
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .deal_m {
+        margin-bottom: 30px;
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .deal_k {
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .brand {
+        height: 363px;
+    }
+    .brand_photo {
+        display: none;
+    }
+    .brand_text {
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .brand_title {
+        font-size: 38px;
+        line-height: 46px;
+        left: 0;
+    }
+    .brand_info {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: left;
+    }
+    .subscribe_wrapper {
+        flex-direction: column;
+        background-image: url(img/subscribe.svg);
+    }
+}
