@@ -18,16 +18,18 @@
     <header class="navbar">
         <div class="navbar_wrapper">
             <div class="navbar_icons">
-                <div class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo"> </div>
+                <a href="index.html" class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo">
+                </a>
                 <div class="navbar_icon"> <img src="img/navbaricon2.svg" alt="logo"> </div>
             </div>
             <div class="navbar_icons">
-                <div class="navbar_icon"><img src="img/navbaricon3.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon4.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon51.svg" alt="logo"></div>
+                <div class="navbar_icon burger"><img src="img/navbaricon3.svg" alt="logo"></div>
+                <a href="Registration.html" class="navbar_icon hide_mobile"><img src="img/navbaricon4.svg" alt="logo"></a>
+                <a href="Cart.html" class="navbar_icon hide_mobile"><img src="img/navbaricon51.svg" alt="logo"></a>
             </div>
         </div>
     </header>
+
     <section class="shopbar">
         <div class="shopbar_wrapper">
             <p class="shopbar_text">SHOPPING CART</p>
@@ -35,11 +37,12 @@
     </section>
     <section class=cart>
         <div class="cart_wrapper">
-            <div class="cart_wrapper_left">
+            <div class="cart_left">
                 <div class="shopping_item">
                     <img src="img/featured3.svg" alt="photo">
                     <div class="item_description">
                         <p class="shoppingitem_title">MANGO PEOPLE <br> T-SHIRT</p>
+
                         <p class="shoppingitem_text">PRICE: <span style="color:#F16D7F">$300 </span> </p>
                         <p class="shoppingitem_text">COLOR: RED</p>
                         <p class="shoppingitem_text">SIZE: XL </p>
@@ -47,6 +50,7 @@
                             <p class="shoppingitem_text">QUANTITY: </p>
                             <input type="text" class="size">
                         </div>
+
                     </div>
                 </div>
                 <div class="shopping_item">
@@ -66,48 +70,29 @@
                     <button class="clear_btn"> CLEAR SHOPPING CART </button>
                     <button class="clear_btn"> CONTINUE SHOPPING </button>
                 </div>
-
-
             </div>
-            <div class="shipping">
+            <div class="shipping_right">
                 <p class="address"> SHIPPING ADDRESS</p>
-                <form class="ship_form">
-                    <input class="ship_adr" placeholder="Bangladesh"> </input>
-                    <input class="ship_adr" placeholder="State"> </input>
-                    <input class="ship_adr" placeholder="Postcode/Zip"> </input>
-                    <button class="get_quote"> GET A QUOTE </button>
-                </form>
-                <div class="checkout">
-                    <div class="subtotal">
-                        <p class="subtotal1"> SUB TOTAL </p>
-                        <p class="subtotal1"> $900 </p>
+                <div class="shipping">
+                    <form class="ship_form">
+                        <input class="ship_adr" placeholder="Bangladesh" />
+                        <input class="ship_adr" placeholder="State" />
+                        <input class="ship_adr" placeholder="Postcode/Zip" />
+                        <button class="get_quote"> GET A QUOTE </button>
+                    </form>
+                    <div class="checkout">
+                        <div class="subtotal">
+                            <p class="subtotal1"> SUB TOTAL </p>
+                            <p class="subtotal1"> $900 </p>
+                        </div>
+                        <div class="grand">
+                            <p class="grandtotal"> GRAND TOTAL </p>
+                            <p class="grandtotal_price"> $900 </p>
+                        </div>
+                        <div class="checkout_line"></div>
+                        <button class="proceed"> PROCEED TO CHECKOUT</button>
                     </div>
-                    <div class="grand">
-                        <p class="grandtotal"> GRAND TOTAL </p>
-                        <p class="grandtotal_price"> $900 </p>
-                    </div>
-                    <div class="checkout_line"></div>
-                    <button class="proceed"> PROCEED TO CHECKOUT</button>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="section section_services">
-        <div class="services_list">
-            <div class="services_items">
-                <img class="services_item" src="img/service1.svg" alt="delivery">
-                <h3 class="services_heading"> Free Delivery</h3>
-                <p class="services_text"> Worldwide delivery on all. Authoritatively morph next-generation innovation with extentive models. </p>
-            </div>
-            <div class="services_items">
-                <img class="services_item" src="img/service2.svg" alt="delivery">
-                <h3 class="services_heading"> Sales & Discounts</h3>
-                <p class="services_text"> Worldwide delivery on all. Authoritatively morph next-generation innovation with extentive models. </p>
-            </div>
-            <div class="services_items">
-                <img class="services_item" src="img/service3.svg" alt="delivery">
-                <h3 class="services_heading"> Quality assurency</h3>
-                <p class="services_text"> Worldwide delivery on all. Authoritatively morph next-generation innovation with extentive models. </p>
             </div>
         </div>
     </section>
@@ -121,7 +106,7 @@
             <div class="subscribe_right">
                 <h3 class="subscribe_heading"> SUBSCRIBE</h3>
                 <p class="subscribe_text_right"> FOR OUR NEWSLETTERS AND PROMIOTION</p>
-                <form class="subscribe_form" action="">
+                <form class="subscribe_form">
                     <input type="email" class="subscribe_email" placeholder="Enter your email">
                     <button class="subscribe_button"> Subscribe </button>
                 </form>

@@ -13,14 +13,12 @@
     height: 150px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .shopbar_text {
     font-size: 24px;
     line-height: 29px;
-    color: #636363;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -127,7 +125,7 @@
 /*Right */
 
 .regi_right {
-    width: 652px;
+    max-width: 652px;
     height: 334px;
     display: flex;
     flex-direction: column;
@@ -161,6 +159,13 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    list-style-type: none;
+    margin-top: 21px;
+}
+
+.regi_list_item {
+    display: flex;
+    flex-direction: row;
 }
 
 .list_item {

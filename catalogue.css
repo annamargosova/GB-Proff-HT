@@ -220,11 +220,8 @@
     align-items: center;
 }
 
-.paginator:active {
-    color: #EF5B70;
-}
-
-.page:hoover {
+.page:hover,
+ :active {
     color: #EF5B70;
 }
 

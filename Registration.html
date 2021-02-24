@@ -10,74 +10,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="mediaquiries.css">
 </head>
 
 <body>
     <header class="navbar">
         <div class="navbar_wrapper">
             <div class="navbar_icons">
-                <div class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo"> </div>
+                <a href="index.html" class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo">
+                </a>
                 <div class="navbar_icon"> <img src="img/navbaricon2.svg" alt="logo"> </div>
             </div>
             <div class="navbar_icons">
-                <div class="navbar_icon"><img src="img/navbaricon3.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon4.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon51.svg" alt="logo"></div>
+                <div class="navbar_icon burger"><img src="img/navbaricon3.svg" alt="logo"></div>
+                <a href="Registration.html" class="navbar_icon hide_mobile"><img src="img/navbaricon4.svg" alt="logo"></a>
+                <a href="Cart.html" class="navbar_icon hide_mobile"><img src="img/navbaricon51.svg" alt="logo"></a>
             </div>
         </div>
     </header>
+
     <section class="shopbar">
         <div class="shopbar_wrapper">
             <p class="shopbar_text">REGISTRATION</p>
         </div>
     </section>
-    <section class="section registration">
+    <section class="section section_registration">
         <div class="regi_wrapper">
             <div class="regi_left">
                 <div class="registration">
                     <p class="name"> Your Name</p>
                     <form class="regi_form">
-                        <input class="form_text" placeholder="First name"></input>
-                        <input class="form_text" placeholder="Last name"></input>
+                        <input class="form_text" placeholder="First name" />
+                        <input class="form_text" placeholder="Last name" />
                         <div class="gender">
-                            <input type="radio" class="gender_text">Male</input>
-                            <div class="gender_female">
-                                <input type="radio" class="gender_text">Female</input>
+                            <input type="radio" class="gender_text" />Male
+                            <div class="gSender_female">
+                                <input type="radio" class="gender_text" />Female
                             </div>
                         </div>
 
                         <p class="name login"> Login Details</p>
-                        <input class="form_text" placeholder="Email"> </input>
-                        <input class="form_text" placeholder="Password"> </input>
+                        <input class="form_text" placeholder="Email" />
+                        <input class="form_text" placeholder="Password" />
                         <p class="password">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
                     </form>
-
                 </div>
                 <div class="join">
                     <button class="join_btn"> <span style="margin-right: 20px;"> JOIN NOW</span> <i class="fas fa-arrow-right"></i></button>
 
                 </div>
-
             </div>
             <div class="regi_right">
                 <p class="regi_title">LOYALTY HAS ITS PERKS</p>
                 <p class="regi_text"> Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
                 <div class="regi_list">
-                    <img src="img/tick.svg" alt="#"> <span class="list_item">15% off welcome offer </span> <br>
-                    <img src="img/tick.svg" alt="#"> <span class="list_item">Free shipping, returns and exchanges on all orders </span> <br>
-                    <img src="img/tick.svg" alt="#"> <span class="list_item">$10 off a purchase on your birthday</span> <br>
-                    <img src="img/tick.svg" alt="#"> <span class="list_item">Early access to products </span> <br>
-                    <img src="img/tick.svg" alt="#"> <span class="list_item"> Exclusive offers & rewards </span> <br>
-
+                    <div class="regi_list_item">
+                        <img src="img/tick.svg" class="list_tick" alt="#">
+                        <p class="list_item">15% off welcome offer </p>
+                    </div>
+                    <div class="regi_list_item">
+                        <img src="img/tick.svg" class="list_tick" alt="#">
+                        <p class="list_item">Free shipping, returns and exchanges on all orders </p>
+                    </div>
+                    <div class="regi_list_item">
+                        <img src="img/tick.svg" class="list_tick" alt="#">
+                        <p class="list_item">$10 off a purchase on your birthday</p>
+                    </div>
+                    <div class="regi_list_item">
+                        <img src="img/tick.svg" class="list_tick" alt="#">
+                        <p class="list_item">Early access to products </p>
+                    </div>
+                    <div class="regi_list_item">
+                        <img src="img/tick.svg" class="list_tick" alt="#">
+                        <p class="list_item"> Exclusive offers & rewards </p>
+                    </div>
                 </div>
             </div>
-
-        </div>
-
         </div>
     </section>
-
-    <section class="subscribe">
+    <section class="subscribe ">
         <div class="subscribe_wrapper">
             <div class="subscribe_left">
                 <img class="subscribe_img" src="img/subphoto.svg" alt="#">
@@ -87,7 +98,7 @@
             <div class="subscribe_right">
                 <h3 class="subscribe_heading"> SUBSCRIBE</h3>
                 <p class="subscribe_text_right"> FOR OUR NEWSLETTERS AND PROMIOTION</p>
-                <form class="subscribe_form" action="">
+                <form class="subscribe_form">
                     <input type="email" class="subscribe_email" placeholder="Enter your email">
                     <button class="subscribe_button"> Subscribe </button>
                 </form>
@@ -112,11 +123,7 @@
                     <i class="fab fa-twitter"></i>
                 </div>
             </div>
-
         </div>
-
-
-
     </footer>
 </body>
 

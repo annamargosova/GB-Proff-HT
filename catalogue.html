@@ -10,19 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="catalogue.css">
+    <link rel="stylesheet" href="mediaquiries.css">
 </head>
 
 <body>
     <header class="navbar">
         <div class="navbar_wrapper">
             <div class="navbar_icons">
-                <div class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo"> </div>
+                <a href="index.html" class="navbar_icon"> <img src="img/navbaricon1.svg" alt="logo">
+                </a>
                 <div class="navbar_icon"> <img src="img/navbaricon2.svg" alt="logo"> </div>
             </div>
             <div class="navbar_icons">
-                <div class="navbar_icon"><img src="img/navbaricon3.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon4.svg" alt="logo"></div>
-                <div class="navbar_icon"><img src="img/navbaricon51.svg" alt="logo"></div>
+                <div class="navbar_icon burger"><img src="img/navbaricon3.svg" alt="logo"></div>
+                <a href="Registration.html" class="navbar_icon hide_mobile"><img src="img/navbaricon4.svg" alt="logo"></a>
+                <a href="Cart.html" class="navbar_icon hide_mobile"><img src="img/navbaricon51.svg" alt="logo"></a>
             </div>
         </div>
     </header>
@@ -41,8 +43,8 @@
             <div class="filter_column">
                 <details class="filter_main">
                     <summary class="filter_main_summary">
-                        <span class="filter" "> Filter </span>
-                        <i class="fas fa-align-left filter_icon "></i>
+                        <span class="filter"> Filter </span>
+                        <i class="fas fa-align-left filter_icon"></i>
                         <details class="filter_main_category ">
                             <summary class="filter_main_category_summary ">CATEGORY</summary>
                             <div class="category_list ">
@@ -69,42 +71,42 @@
                 </details>
             </div>
             <div class="filter_column ">
-                    <details class="filter_main ">
-                        <summary class="filter_main_summary ">
-                            <span class="filter "> TRENDING NOW</span>
-                            <i class="fas fa-chevron-down "></i>
-                        </summary>
-                        <div class="trending_now_list ">
-                            <li class="trending_list ">1</li>
-                            <li class="trending_list ">2</li>
-                            <li class="trending_list ">3</li>
-                         </div>
-                    </details>
-                    <details class="filter_main ">
-                        <summary class="filter_main_summary ">
-                            <span class="filter "> SIZE</span>
-                            <i class="fas fa-chevron-down "></i>
-                        </summary>
-                        <div class="filter_size_list ">
-                            <li class="choose_list ">XS</li>
-                            <li class="choose_list ">S</li>
-                            <li class="choose_list ">M</li>
-                            <li class="choose_list ">L</li>
-                            <li class="choose_list ">XL</li>
-                        </div>
-                    </details>
-                    <details class="filter_main ">
-                        <summary class="filter_main_summary ">
-                            <span class="filter "> PRICE</span>
-                            <i class="fas fa-chevron-down "></i>
-                        </summary>
-                        <div class="filter_price_list ">
-                            <li class="price_list ">1</li>
-                            <li class="price_list ">2</li>
-                            <li class="price_list ">3</li>
-                                                    </div>
-                    </details>
-                 </div>
+                <details class="filter_main ">
+                    <summary class="filter_main_summary ">
+                        <span class="filter "> TRENDING NOW</span>
+                        <i class="fas fa-chevron-down "></i>
+                    </summary>
+                    <ul class="trending_now_list ">
+                        <li class="trending_list ">1</li>
+                        <li class="trending_list ">2</li>
+                        <li class="trending_list ">3</li>
+                    </ul>
+                </details>
+                <details class="filter_main ">
+                    <summary class="filter_main_summary ">
+                        <span class="filter "> SIZE</span>
+                        <i class="fas fa-chevron-down "></i>
+                    </summary>
+                    <ul class="filter_size_list ">
+                        <li class="choose_list ">XS</li>
+                        <li class="choose_list ">S</li>
+                        <li class="choose_list ">M</li>
+                        <li class="choose_list ">L</li>
+                        <li class="choose_list ">XL</li>
+                    </ul>
+                </details>
+                <details class="filter_main ">
+                    <summary class="filter_main_summary ">
+                        <span class="filter "> PRICE</span>
+                        <i class="fas fa-chevron-down "></i>
+                    </summary>
+                    <ul class="filter_price_list ">
+                        <li class="price_list ">1</li>
+                        <li class="price_list ">2</li>
+                        <li class="price_list ">3</li>
+                    </ul>
+                </details>
+            </div>
         </div>
     </section>
     <section class="section_cards ">
@@ -280,21 +282,21 @@
 
         </div>
     </section>
-    <div class="paginator_wrapper "> 
+    <div class="paginator_wrapper ">
         <div class="paginator ">
-        <a href="#prev "class="page_arrow "><i class="fas fa-chevron-left "></i></a>
-        <a href="#1 " class="page ">1</a>
-        <a href="#2 " class="page ">2</a>
-        <a href="#3 " class="page " >3</a>
-        <a href="#4 " class="page " >4</a>
-        <a href="#5 " class="page " >5</a>
-        <a href="#6 " class="page " >6</a>
-        <span class="page ">&hellip;</span>
-        <a href="#20 " class="page " >20</a>
-        <a href="#next " class="page_arrow " ><i class="fas fa-chevron-right "></i></a>
-      </div>
+            <a href="#prev " class="page_arrow "><i class="fas fa-chevron-left "></i></a>
+            <a href="#1" class="page ">1</a>
+            <a href="#2" class="page ">2</a>
+            <a href="#3" class="page ">3</a>
+            <a href="#4" class="page ">4</a>
+            <a href="#5" class="page ">5</a>
+            <a href="#6" class="page ">6</a>
+            <span class="page">&hellip;</span>
+            <a href="#20" class="page">20</a>
+            <a href="#next" class="page_arrow"><i class="fas fa-chevron-right"></i></a>
+        </div>
     </div>
-    
+
     <section class="section section_services ">
         <div class="services_list ">
             <div class="services_items ">
@@ -319,12 +321,12 @@
             <div class="subscribe_left ">
                 <img class="subscribe_img " src="img/subphoto.svg " alt="# ">
                 <p class="subscribe_text_left "> "Vestibulum quis portittor dui! Quisque viverra nunc mi, <i>a pulvinar purus condimentum"</i>
-                        </p>
+                </p>
             </div>
             <div class="subscribe_right">
                 <h3 class="subscribe_heading"> SUBSCRIBE</h3>
                 <p class="subscribe_text_right"> FOR OUR NEWSLETTERS AND PROMIOTION</p>
-                <form class="subscribe_form" action="">
+                <form class="subscribe_form">
                     <input type="email" class="subscribe_email" placeholder="Enter your email">
                     <button class="subscribe_button"> Subscribe </button>
                 </form>
