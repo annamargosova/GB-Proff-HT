@@ -1,0 +1,338 @@
+@media screen and (max-width:768px) {
+    .section_services,
+    .section_wrapper,
+    .services_list,
+    .subscribe_wrapper,
+    .cart_wrapper {
+        flex-direction: column;
+    }
+    .navbar_wrapper {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    /*Index*/
+    .brandphoto {
+        width: 386px;
+    }
+    .brand_info {
+        margin-top: 138px;
+    }
+    .brand_title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+    .brand_text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .deal_w,
+    .deal_m,
+    .deal_k {
+        width: 232px;
+        height: 167px;
+    }
+    .featured_items_box {
+        flex-direction: column;
+    }
+    /*Product*/
+    .description {
+        width: 100%px;
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row:nth-child(3) {
+        visibility: hidden;
+    }
+    /*Cart*/
+    .cart_wrapper {
+        margin-top: 59px;
+    }
+    .cart_left {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 18px;
+    }
+    .shopping_item {
+        width: 734px;
+    }
+    .cart_btn {
+        margin-top: 23px;
+        justify-content: space-evenly;
+    }
+    .clear_btn {
+        width: 235px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .shipping_right {
+        margin-left: 0;
+    }
+    .address {
+        margin-top: 64px;
+        margin-left: 17px;
+    }
+    .shipping {
+        width: 734px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .ship_form {
+        width: 360px;
+    }
+    .checkout {
+        width: 360px;
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+    /*Registration*/
+    .shopbar_text {
+        margin-left: 16px;
+    }
+    .regi_wrapper {
+        padding-right: 16px;
+        padding-left: 16px
+    }
+    .regi_right {
+        width: 354px;
+    }
+    .regi_text,
+    .regi_title,
+    .regi_list {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .list_tick {
+        width: 20px;
+        height: 16px;
+    }
+    /*Services section*/
+    .section_wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*Subscribe section*/
+    .subscribe {
+        height: 614px;
+    }
+    .subscribe_wrapper {
+        justify-content: center;
+    }
+    .subscribe_left {
+        margin-top: 54px;
+    }
+    .subscribe_text_left {
+        margin-top: 30px;
+    }
+    .subscribe_right {
+        margin-top: 48px;
+    }
+    .subscribe_form {
+        justify-content: center;
+        margin-top: 27px;
+    }
+    /*Footer*/
+    .footer_wrapper {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .overlay .menu {
+        width: 100%;
+    }
+    .hide_mobile {
+        display: none;
+    }
+    .feat_item_box {
+        flex-direction: column;
+    }
+    .deals_row {
+        flex-direction: column;
+    }
+    .deal_w {
+        margin-bottom: 30px;
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .deal_m {
+        margin-bottom: 30px;
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .deal_k {
+        width: 343px;
+        height: 247px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .brand {
+        height: 363px;
+    }
+    .brand_photo {
+        display: none;
+    }
+    .brand_text {
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .brand_title {
+        font-size: 38px;
+        line-height: 46px;
+        left: 0;
+    }
+    .brand_info {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: left;
+    }
+    /*Product*/
+    .arrivals_wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .carousel {
+        height: 624px;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 454px;
+    }
+    .adv_text {
+        margin-left: 24px;
+        margin-right: 25px;
+    }
+    .description {
+        width: 375px;
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .choose {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    /*Cart*/
+    .shopping_item {
+        width: 360px;
+    }
+    .item_description {
+        width: 215px;
+    }
+    .shipping {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shipping_right {
+        display: flex;
+        flex-direction: column;
+    }
+    .ship_form {
+        margin-left: 10px;
+    }
+    .checkout {
+        margin-top: 48px;
+    }
+    /* Registration */
+    .shopbar_wrapper {
+        justify-content: center;
+    }
+    .section_registration {
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    .regi_wrapper {
+        flex-direction: column;
+        height: 875px;
+    }
+    .regi_text,
+    .regi_title,
+    .regi_list {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .regi_left {
+        height: 422px;
+    }
+    .regi_right {
+        height: 341px;
+        margin-top: 100px;
+    }
+    .list_tick {
+        width: 20px;
+        height: 16px;
+    }
+    /*Services section*/
+    .section_services {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .section_wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .services_items {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    /*Subscribe section*/
+    .subscribe_wrapper {
+        flex-direction: column;
+        padding-bottom: 110px;
+        height: 550px;
+    }
+    .subscribe_left {
+        padding-top: 54px;
+    }
+    .subscribe_text_left {
+        font-size: 18px;
+        line-height: 22px;
+        width: 343px;
+        height: 73px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-top: 30px;
+    }
+    .subscribe_right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 59px;
+        padding-right: 52px;
+        padding-left: 52px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .subscribe_text_right {
+        font-size: 14px;
+    }
+    .subscribe_form {
+        justify-content: center;
+        margin-top: 22px;
+    }
+    /*footer*/
+    .footer {
+        height: 143px;
+    }
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .copyright {
+        margin-top: 25px;
+    }
+    .social_icons {
+        margin-top: 43px;
+    }
+}
